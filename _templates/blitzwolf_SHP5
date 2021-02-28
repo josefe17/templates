@@ -28,3 +28,7 @@ To ignore USB power and indicate socket power state only, execute command `LedMa
 Important: it is possible that your device will enter a bootloop due to a conflict with UART/serial logging. 
 Fix this using: SerialLog 0
 
+This template is valid for Energeeks EG-EW005MC, or any Tuya device using SP112 v2.8 board. Not valid for 3.4 board. Note that some Energeeks devices may be externally identical but the board is different. I flashed using serial port.
+
+I recommend modifying the templete for setting the red led at GPIO0 as Led_i 1 and blue led at GPIO3 as LedLink.
+
